@@ -1,0 +1,34 @@
+.burger{
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem 2rem;
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.burger__ul {
+  height: 2rem;
+  width: 2rem;
+}
+
+.line{
+  content: '';
+  width: 1.3rem;
+  margin-top: 0.3rem;
+  border: 0.05rem solid white;
+  transform: scale(1.2);
+}
+
+.circle {
+  border: none;
+}
+
+.burger__active {
+  display: flex;
+  height: 2rem;
+}
+
+.burger__active li {
+  height: 20px;
+}

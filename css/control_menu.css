@@ -1,0 +1,14 @@
+.control__menu{
+  background: #25272A;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  height: 100vh;
+}
+
+.control__menu-closed {
+  position: absolute;
+  z-index: 0;
+  left: -100vw;
+  transition: all 0.5s ease-in-out;
+
+}

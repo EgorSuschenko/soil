@@ -5,8 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../assets/favicon/favicon.png">
-  <link rel="stylesheet" href="../css/work-tab.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  <link rel="stylesheet" href="../css/work-tab__body.css">
+  <link rel="stylesheet" href="../css/map-container.css">
+  <link rel="stylesheet" href="../css/navigation-list.css">
+  <link rel="stylesheet" href="../css/burger.css">
+  <link rel="stylesheet" href="../css/control_menu.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
   crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -19,6 +23,13 @@
   <div class="wrapper">
     <div class="side__bar">
       <div class="navigation__list">
+        <div class="burger">
+          <ul class="burger__ul">
+            <li class="line "></li>
+            <li class="line "></li>
+            <li class="line "></li>
+          </ul>
+        </div>
         <ul>
           <li class="navigation__item">
             <img src="../assets/favicon/favicon.png" alt="icon" class="icon">
@@ -46,15 +57,8 @@
         </li>
         </ul>
       </div>
-      <div class="control__menu">
+      <div class="control__menu control__menu-closed">
         <div class="tab__name">
-          <div class="burger">
-            <ul>
-              <li class="line"></li>
-              <li class="line"></li>
-              <li class="line"></li>
-            </ul>
-          </div>
           <span class="tab__name-text">Current tab</span>
         </div>
         <div class="tab__window">
@@ -67,5 +71,7 @@
     </div>
   </div>
   <script src="../script/map-script.js"></script>
+  <script src="../script/burger__toggle.js"></script>
+  <script src="../script/setTabName.js"></script>
 </body>
 </html>
