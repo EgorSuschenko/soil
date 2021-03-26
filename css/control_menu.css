@@ -1,17 +1,3 @@
-@keyframes fade {
-  0% {
-    left: 5rem;
-  }
-
-  50% {
-    left: 0;
-  }
-
-  100% {
-    left: -100vw;
-  }
-}
-
 .control__menu{
   position: relative;
   background: #25272A;
@@ -26,6 +12,6 @@
 .control__menu-closed {
   position: absolute;
   z-index: 0;
-  left: -100%;
+  transform: translateX(-100%);
   opacity: 0;
 }

@@ -1,11 +1,11 @@
 let menuOptions = Array.from(document.querySelectorAll('.navigation__item'));
 
 let setName = (title) => {
+  let sidebarWidth = document.querySelector('.side__bar').style.width;
   document.querySelector('.tab__name-text').innerHTML = title;
   let controlMenu = document.querySelector('.control__menu');
   controlMenu.classList.toggle('control__menu-closed');
-  document.querySelector('.map__holder').style.width =
-    controlMenu.classList.contains('control__menu-closed') ? 'calc(100vw - 5rem)' : 'calc(100vw - 40rem)';
+  document.querySelector('.map__holder').style.width = `calc(100vw - ${sidebarWidth})`;
 }
 
 menuOptions.map (item => {

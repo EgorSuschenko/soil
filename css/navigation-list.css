@@ -24,6 +24,8 @@
 }
 
 li.navigation__item{
+  box-sizing: border-box;
+  padding-left: 0.5rem;
   display: flex;
   align-items: center;
   width: 15rem;
@@ -36,6 +38,11 @@ li.navigation__item{
   text-align: center;
   font-size: 2rem;
   user-select: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.text__small{
+  opacity: 0;
 }
 
 .side__bar{

@@ -1,32 +1,35 @@
 .burger{
-  height: 2rem;
-  width: 2rem;
-  margin: 0.5rem 2rem;
-  transform: scale(1.2);
+  width: 100%;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
-.burger__ul {
-  height: 2rem;
-  width: 2rem;
+.burger__svg{
+  width: 35px;
+  height: 35px;
+  margin-left: 0.5rem
 }
 
-.line{
-  content: '';
-  height: 5px;
-
+.line {
+  transition: all 1s ease;
 }
 
-.circle {
-  border: none;
+#small__menu {
+  opacity: 0;
 }
 
-.burger__active {
-  display: flex;
-  height: 2rem;
+.fade {
+  opacity: 0
 }
 
-.burger__active li {
-  height: 20px;
+.line__1{
+  transform: translateY(-100%);
+}
+
+.line__2 {
+  opacity: 0;
+}
+
+.line__3 {
+  transform: translateY(100%);
 }
