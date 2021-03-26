@@ -14,10 +14,8 @@
 
 .line{
   content: '';
-  width: 1.3rem;
-  margin-top: 0.3rem;
-  border: 0.05rem solid white;
-  transform: scale(1.2);
+  height: 5px;
+
 }
 
 .circle {

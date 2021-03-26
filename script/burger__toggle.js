@@ -12,7 +12,10 @@ let toggleBurger = () => {
     } else {
       burger.style.margin = '0 auto';
     }
-    line.innerHTML = isBurgerNotToggled ? '' : `
+    line.innerHTML = isBurgerNotToggled ? `
+    <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="white" stroke-width="20" />
+    </svg>` : `
     <svg viewBox="0 0 60 60"
     version="1.1" xmlns="http://www.w3.org/2000/svg">
       <circle cx="30" cy="30" r="15" style="fill: white"/>
