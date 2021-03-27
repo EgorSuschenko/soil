@@ -49,22 +49,3 @@ li.navigation__item{
   max-width: 40rem;
   display: flex
 }
-
-.tab__window{
-  height: calc(100% - 35px);
-  width: 25rem;
-}
-
-.tab__name{
-  height: 3.5rem;
-  display: flex;
-}
-
-.tab__name-text{
-  margin-top: 0.2rem;
-  font-size: 2rem;
-  color: white;
-  user-select: none;
-  cursor: inherit;
-  margin: auto;
-}
