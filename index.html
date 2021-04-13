@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/general.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -16,28 +16,28 @@
     <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body> 
-    <section class="header_wrapper">
+    <section id="home" class="header_wrapper">
         <nav class="header">
             <a href="#"><img src="./images/nav_logo.png" alt="nav_logo" class="nav_logo"></a>
             <ul class="header_link_wrapper">
-                <li class="nav_link"><a href="#" class="nav_link">Home</a></li>
-                <li class="nav_link"><a href="#" class="nav_link">About</a></li>
-                <li class="nav_link"><a href="#" class="nav_link">Services</a></li>
-                <li class="nav_link"><a href="#" class="nav_link">Work</a></li>
-                <li class="nav_link"><a href="#" class="nav_link">Contact</a></li>
+                <li class="nav_link"><a href="#home" class="nav_link">На Главную</a></li>
+                <li class="nav_link"><a href="#about_title" class="nav_link">О Нас</a></li>
+                <li class="nav_link"><a href="#partners" class="nav_link">Партнеры</a></li>
+                <li class="nav_link"><a href="#work_interface" class="nav_link">Превью</a></li>
+                <li class="nav_link"><a href="#contacts" class="nav_link">Контакты</a></li>
             </ul>
         </nav>
         <div class="logo_background">
             <img src="" alt="backround_logo" class="background_logo">
             <h1>Lorem, ipsum dolor.</h1>
             <p>Lorem ipsum dolor sit amet.</p>
-            <a href="#" class="scroll_link">scroll down</a>
+            <a href="#about_title" class="scroll_link">scroll down</a>
         </div>
        
     </section>
-    <section class="about">
+    <section id="about_title" class="about">
         <div class="title_wrapper">
-            <h1 class="about_title">Наша История</h1>
+            <h1  class="about_title">Наша История</h1>
             <div class="title_line"></div>
         </div>
         <div class="content_wrapper">
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-<section class="work_interface">
+<section id="work_interface" class="work_interface">
     <div class="work_title">
         <h3>Рабочий Интерефейс</h3>
         <div class="work_line"></div>
@@ -71,7 +71,7 @@
     </div>
 </section>
 
-    <section class="workplace_example">
+    <section id="partners" class="workplace_example">
         <div class="example_title">
             <h3>Наши Партнеры</h3>
             <div class="example_line"></div>
@@ -94,7 +94,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
         <div class="footer_description">
             <h2>Компания</h2>
             <img src="" alt="footer_logo" class="footer_logo">
@@ -104,10 +104,10 @@
             <div class="footer_head_links">
                 <h2>Ссылки</h2>
                     <ul class="links_container">
-                        <li><a href="#" class="footer_link">Home</a></li>
-                        <li><a href="#" class="footer_link">About</a></li>
+                        <li><a href="#home" class="footer_link">Главная</a></li>
+                        <li><a href="#about_title" class="footer_link">О Нас</a></li>
                         <li><a href="#" class="footer_link">Services</a></li>
-                        <li><a href="#" class="footer_link">Work</a></li>
+                        <li><a href="#work_interface" class="footer_link">Превью</a></li>
                         <li><a href="#" class="footer_link">Contact</a></li>
                     </ul>
             </div>
@@ -120,7 +120,7 @@
             </div>
             <div class="partner_footer_block">
                 <ul class="partner_container">
-                    <li><a href="#" class="footer_link">Partners</a></li>
+                    <li><a href="#partners" class="footer_link">Партнеры</a></li>
                     <li><a href="#" class="footer_link">News</a></li>
                 </ul>
             </div>
@@ -139,5 +139,7 @@
             </ul>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
+
 </html>
