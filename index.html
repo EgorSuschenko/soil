@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/services.css">
     <link rel="stylesheet" href="./styles/work_interface.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/sign_up_modal.css">
 </head>
 <body> 
     <section id="home" class="header_wrapper">
@@ -25,9 +26,20 @@
                 <li class="nav_link"><a href="#partners" class="nav_link">Партнеры</a></li>
                 <li class="nav_link"><a href="#work_interface" class="nav_link">Превью</a></li>
                 <li class="nav_link"><a href="#contacts" class="nav_link">Контакты</a></li>
+                <li><a href="#" id="myBtn" class="nav_link">Войти/Регистрация</a></li>
             </ul>
         </nav>
         <div class="logo_background">
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Some text in the Modal..</p>
+                </div>
+              
+              </div>
+
             <img src="" alt="backround_logo" class="background_logo">
             <h1>Lorem, ipsum dolor.</h1>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -139,7 +151,8 @@
             </ul>
         </div>
     </footer>
-    <script src="../js/main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/sign_up_modal.js"></script>
 </body>
 
 </html>
