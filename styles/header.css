@@ -1,11 +1,12 @@
-.header{
+.header_wrapper{
     position: sticky;
-    top: 0;
+    top: 0;  
+}
+.header{
     padding: 20px 250px;
     display: flex;
     justify-content: space-between;
     background: rgb(2, 27, 12);
-    
 }
 
 .logo_background{
@@ -45,7 +46,7 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 15px;
     letter-spacing: 3.7px;
     color: #FFFFFF;

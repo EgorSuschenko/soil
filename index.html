@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/sign_up_modal.css">
 </head>
-<body> 
-    <section id="home" class="header_wrapper">
+<body id="home" > 
+    <header  class="header_wrapper">
         <nav class="header">
             <a href="#"><img src="./images/nav_logo.png" alt="nav_logo" class="nav_logo"></a>
             <ul class="header_link_wrapper">
@@ -29,7 +29,9 @@
                 <li><a href="#" id="myBtn" class="nav_link">Войти/Регистрация</a></li>
             </ul>
         </nav>
-        <div class="logo_background">
+    </header>
+    <section class="logo_background">
+            <!--modal window-->
             <div id="myModal" class="modal">
                 <div class="modal-content">
                     <div class="close_container">
@@ -42,15 +44,11 @@
                     <a href="" class="registration">Регистрация</a>
                   </div>
                 </div>
-              
               </div>
-
-            <img src="" alt="backround_logo" class="background_logo">
+              <!--modal window-->
             <h1>Lorem, ipsum dolor.</h1>
             <p>Lorem ipsum dolor sit amet.</p>
             <a href="#about_title" class="scroll_link">scroll down</a>
-        </div>
-       
     </section>
     <section id="about_title" class="about">
         <div class="title_wrapper">
@@ -69,24 +67,24 @@
             </div>
         </div>
     </section>
-<section id="work_interface" class="work_interface">
-    <div class="work_title">
-        <h3>Рабочий Интерефейс</h3>
-        <div class="work_line"></div>
-    </div>
-    <div class="interface">
-        <ul class="interface_description">
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iusto similique natus et soluta exercitationem repellat, provident suscipit deserunt earum.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
-        </ul>
-        <img src="./images/work_interface.jpg" alt="work_interface" class="interface_example">
-    </div>
-</section>
+    <section id="work_interface" class="work_interface">
+        <div class="work_title">
+            <h3>Рабочий Интерефейс</h3>
+            <div class="work_line"></div>
+        </div>
+        <div class="interface">
+            <ul class="interface_description">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iusto similique natus et soluta exercitationem repellat, provident suscipit deserunt earum.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum eligendi molestiae sit laborum animi corrupti voluptas! Velit, ex eum?</li>
+            </ul>
+            <img src="./images/work_interface.jpg" alt="work_interface" class="interface_example">
+        </div>
+    </section>
 
     <section id="partners" class="workplace_example">
         <div class="example_title">
@@ -121,7 +119,7 @@
             <div class="footer_head_links">
                 <h2>Ссылки</h2>
                     <ul class="links_container">
-                        <li><a href="#home" class="footer_link">Главная</a></li>
+                        <li><a href="./index.html" class="footer_link">Главная</a></li>
                         <li><a href="#about_title" class="footer_link">О Нас</a></li>
                         <li><a href="#" class="footer_link">Services</a></li>
                         <li><a href="#work_interface" class="footer_link">Превью</a></li>
