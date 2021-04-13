@@ -48,6 +48,17 @@
     margin-right: 30px;
 }
 
+.contact_us_info p{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+
+}
+
 .footer_nav_elements h2{
     font-family: "Open Sans";
     text-align: center;
@@ -80,4 +91,18 @@
 
 .links_container li:not(:first-child){
     margin-top: 4px;
+}
+
+.social_media_container{
+    display: flex;
+    align-items: center;
+}
+
+.social_media_container img{
+    width: 20px;
+    height: 20px;
+}
+
+.social_media_container li:not(:last-child){
+    margin-right: 20px;
 }
