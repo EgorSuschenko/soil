@@ -31,7 +31,7 @@
 .logo_background p{
     margin: 0;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -42,7 +42,7 @@
 .scroll_link{
     text-align: center;
     margin-top: 220px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 11px;
@@ -57,9 +57,7 @@
     align-items: center;
 }
 
-.background_logo{
-    
-}
+
 
 .nav_logo{
     border-radius: 50%;
