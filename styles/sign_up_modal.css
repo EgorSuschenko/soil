@@ -21,7 +21,7 @@
     padding: 20px;
     border: 1px solid #888;
     width: 500px; /* Could be more or less, depending on screen size */
-    height: 500px;
+    height: 400px;
   }
 
   .modal_input{
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
   .submit{
